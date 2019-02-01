@@ -1,0 +1,379 @@
+/* GENERAL */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body 
+{
+    font-family: Arial,sans-serif;
+    font-size: 15px;
+}
+h1, h2,h3,h4
+{
+  color: #444;  
+}
+h1
+{
+    font-family: 'Crete Round', serif;
+    font-size: 45px;
+}
+h2
+{
+    font-size: 55px;
+}
+h3
+{
+    font-size: 30px;
+}
+h4
+{
+    font-size: 24px;
+}
+p
+{
+    line-height: 20px;
+    color: #777;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.wrapper
+{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.orange
+{
+    color: #ff7a00;
+}
+.clear
+{
+    clear: both;   
+}
+small
+{
+    font-size: 13px;
+    font-style:italic;
+}
+
+/* HEADER */
+
+header 
+{
+    height: 120px;   
+}
+header h1
+{
+    float: left;
+    margin-top: 32px;
+}
+header nav
+{
+    float: right;   
+    margin-top: 50px;
+}
+header nav ul li
+{
+    float:left;
+    display: inline-block;
+}
+header nav ul li a
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/* MAIN IMAGE */
+
+#main-image
+{
+    height: 580px;
+    background: url('images/19.jpg') center;
+    animation: slide 20s infinite;
+}
+@keyframes slide{
+50%{
+    background: url('images/8.jpg');
+}
+
+
+}
+#main-image h2
+{
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 40px 0;
+    margin-bottom: 20px;
+}
+.button-1
+{
+    display: block;
+    width: 120px;
+    height: 50px;
+    background: #ff7a00;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    border-radius:  3px;
+}
+.button-1:hover
+{
+     background: #02b8dd;
+}
+
+/* STEPS */
+
+#steps ul
+{
+    margin: 80px 0;
+}
+#steps ul li
+{
+    width: 300px;
+    float:left;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 10px;
+    
+}
+#steps h4
+{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#steps p
+{
+    margin-bottom: 20px;
+}
+#step-1
+{
+    background: url('images/achat2.png') no-repeat top center;
+
+}
+#step-2
+{
+    background: url('images/achat.png') no-repeat top center;
+    
+}
+#step-3
+{
+    background: url('images/9.png') no-repeat top center;
+}
+
+
+
+/* pied de page */
+
+footer
+{
+    height: 260px;
+    background-color:#d9e0da;
+    
+}
+footer h1
+{
+    color:#fff;
+    text-align: center;
+    padding-top: 80px;
+}
+.copyright
+{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
+}
+//*LES plus generale sur mes span et block*//
+.marquee
+{
+    font-weight: bold;
+    color: #fad301;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.mole{
+    background-color: rgba(16,16,16,0.6);
+}
+}
+
+.mole1{
+    background-color:white;
+}
+#couleurs{
+    background-color: rgba(16,16,16,0.6);
+    color: white;
+}
+.reservation{
+
+    background-color:#ff7a00;
+    color: white;
+}
+.COLLECTION{
+top: : 50px;
+color: white;
+}
+.radio1{
+
+    background-color:rgba(16,16,16,0.6);
+}
+.radio2{
+    text-align: center;
+    background-color:background-color: black; 
+}
+.input{
+    color: white;
+    font-weight: bold; 
+}
+.RECHERCHEZ{
+    font-size: 20px;
+    color: white;
+    background-color: rgba(16,16,16,0.6);
+
+}
+.forms
+{
+    display: inline;
+}
+
+.bouton{
+
+    width: 50px;
+    height: 50px;
+    background-color: #ff7a00;
+}
+.bleu{
+    background-color: orange;
+    color: white;
+}
+.rouge{
+    background-color: green;
+    color: white;
+}
+.vert{
+    color: green;
+}
+#confi{
+    text-align: center;
+}
+#condi{
+    text-align: right;
+    
+}
+
+//*MA deuxieme page sur le lien RESERVER*//
+
+
+#groupe ul
+{
+    margin: 80px 0;
+}
+#groupe ul li
+{
+    width: 300px;
+    float:left;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 10px;
+    
+}
+#groupe h4
+{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#groupe p
+{
+    margin-bottom: 20px;
+}
+#image1
+{
+    background: url('images/b.png') no-repeat top center;
+
+}
+#image2
+{
+    background: url('images/c.png') no-repeat top center;
+    
+}
+#image3
+{
+    background: url('images/d.png') no-repeat top center;
+}
+#image4
+{
+ background: url('images/e.png') no-repeat top center;
+}
+#image5
+{
+ background: url('images/f.png') no-repeat top center;
+}
+#image6
+{
+ background: url('images/g.png') no-repeat top center;
+}
+#image7
+{
+ background: url('images/h.png') no-repeat top center;
+}
+#image8
+{
+ background: url('images/i.png') no-repeat top center;
+}
+#image9
+{
+  background: url('images/j.png') no-repeat top center;   
+}
+.nan{
+    font-weight: bold;
+}
+.mere
+{
+    background-color:#dfddda;
+margin-top: 30px;
+}
+.barré
+{
+    text-decoration: line-through;
+}
+.lol
+{
+    margin-top: 100px;
+}
+.lol
+{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
